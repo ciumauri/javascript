@@ -1,7 +1,7 @@
 //Manipulação de Strings e Arrays
 
 //Separando Strings 
-let phrase = "Eu quero viver o Amor com Anne!"
+let phrase = "Eu quero viver o Amor!"
 let myArray = phrase.split(" ")
 console.log(myArray)
 
@@ -10,7 +10,7 @@ let phraseUnderScore = myArray.join("_")
 console.log(phraseUnderScore.toUpperCase())
 
 //Verificação de textos
-console.log(phrase.includes("Anne"))
+console.log(phrase.includes("Amor"))
 
 //Contando caracteres e digitos
 let word = "paralelepipedo"
